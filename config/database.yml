@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: rails_on_psql_production
-  username: rails_on_psql
-  password: <%= ENV['RAILS_ON_PSQL_DATABASE_PASSWORD'] %>
+  database: rails_on_psql_development
